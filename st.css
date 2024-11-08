@@ -1,0 +1,41 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 50px;
+}
+.converter-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  text-align: center;
+}
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+input,
+select,
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+}
+.result {
+  margin-top: 20px;
+  font-size: 1.2em;
+  text-align: center;
+}
